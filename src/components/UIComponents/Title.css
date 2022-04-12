@@ -1,0 +1,23 @@
+.title::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translate(-120px, -5px);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #8613A5;
+}
+
+.title {
+    font-family: 'Oxanium', cursive;
+    position: relative;
+    /* font-size: 40px; */
+    margin-bottom: 20px;
+}
+
+.title__text {
+    background-color: transparent;
+    position: relative;
+    z-index: 2;
+}
